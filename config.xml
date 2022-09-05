@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ps_thumbnailgenbycron</name>
+	<displayName><![CDATA[Thumbnail generator by cron]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Thumbnail generator by cron]]></description>
+	<author><![CDATA[PululuK]]></author>
+	<tab><![CDATA[quick_bulk_update]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
