@@ -52,7 +52,7 @@ class Ps_thumbnailgenbycron extends Module
 
         $this->context->smarty->assign($this->thumbGenerator->getTemplateVarPage());
 
-        return $this->context->smarty->fetch('module:'.$this->name.'/views/templates/admin/configure.tpl');
+        return $this->display(__FILE__, 'views/templates/admin/configure.tpl');
     }
 
     public function ajaxProcessThumbGenerator()
