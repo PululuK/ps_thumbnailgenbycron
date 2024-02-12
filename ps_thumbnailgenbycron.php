@@ -14,9 +14,9 @@ class Ps_thumbnailgenbycron extends Module
     {
         $this->name = 'ps_thumbnailgenbycron';
         $this->tab = 'quick_bulk_update';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'PululuK';
-        $this->need_instance = 1;
+        $this->need_instance = 0;
         $this->bootstrap = true;
 
         parent::__construct();
